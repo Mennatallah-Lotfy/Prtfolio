@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+   /* background-color:black; */
+   background-color: #fecea0;
+}
+.pt1{
+    /* background-image: url('../images/p2.png');
+    background-size: cover; */
+    border: 15px groove darkred;
+    border-radius:10px;
+    background-color:darkgoldenrod;
+    color: beige;
+}
+.hed{
+    font-family: 'Bungee Inline', 'cursive';
+    line-height: initial;
+}
+.hed1{
+    animation: contact 1s infinite forwards; 
+}
+@keyframes contact {
+   0%{transform: scale(1.1);}
+   100%{transform: scale(1);}
+   /* 0%{transform: rotateY(360deg);} */ 
+ }
+ a{
+    font-family: 'Courgette', 'cursive';
+    font-size: 20px;
+    color:darkred;
+ }
+ .a1{
+    color: beige;
+ }

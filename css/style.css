@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+   /* background-image: url('../images/back4.jpg');
+   background-size:cover; */
+   /* background-repeat: no-repeat;
+   height: auto; */
+   background-color: #fecea0;
+}
+.p1{
+    border: 15px groove darkgoldenrod;
+    border-radius:10px;
+    transform: rotateZ(355deg);
+    color: darkred;
+    /* background-color: gainsboro; */
+    background-image: url('../images/back4.jpg');
+    background-size:cover;
+    /* font-family: 'Bungee Inline', cursive; */
+    font-family: 'Courgette', cursive;
+    /* font-family: 'Rubik Gemstones', cursive; */
+    /* font-family: 'Rubik Vinyl', cursive; */
+    /* font-family: 'Zen Dots', cursive; */
+
+}
+.anime{
+    animation: thanks 2s infinite forwards; 
+}
+.th{
+    font-family: 'Rubik Gemstones', "cursive";
+    border: 15px groove darkred;
+    border-radius:10px;
+    background-color:darkgoldenrod;
+    color: beige;
+}
+.p2{
+    transform: rotate(5deg);
+}
+.p3{
+    transform: rotate(355deg);
+}
+@keyframes thanks {
+   0%{opacity: 1;}
+   50%{opacity: 0;}
+   100%{opacity: 1;}
+}
